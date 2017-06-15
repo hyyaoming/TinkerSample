@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         mTvError = (TextView) findViewById(R.id.tv_error);
-        mTvError.setText("load patch success");
+        mTvError.setText("this is error");
         mBtnLoadPatch = (Button) findViewById(R.id.btn_load_patch);
         mBtnLoadPatch.setOnClickListener(new View.OnClickListener() {
             @Override
